@@ -1,0 +1,44 @@
+<head></head>
+<body>
+    <h1 id="title">Torneio Futebol 2020</h1>
+    <p id="description">Participa com a tua equipa nos torneios de 5x5 ou 7x7!</p>
+    <form id="survey-form">
+        <label id="name-label" for="name">Nome:</label>
+        <input id="name" type="text" placeholder="Nome do responsável" required>
+        <label id="email-label" for="email">Email:</label>
+        <input id="email" type="email" placeholder="Email do responsável" required>
+        <label id="number-label" for="number">Idade:</label>
+        <input id="number" type="number" placeholder="Idade" min="0" max="100">
+        <label id="dropdown-label" for="dropdown">AAA</label>
+        <select id="dropdown">
+            <option value="a">a</option>
+            <option value="b">b</option>
+            <option value="c">c</option>
+        </select>
+
+        <p>É a primeira vez que participas?</p>
+        <label for="freq-sim">
+            <input id="freq-sim" type="radio" value="sim" name="freq-sim-nao">Sim 
+        </label>
+        <label for="freq-nao"> 
+            <input id="freq-nao" type="radio" value="nao" name="freq-sim-nao">Não 
+        </label>
+
+        <p>Desportos:</p>
+        <label for="futebol">
+            <input id="futebol" type="checkbox" value="futebol" name="desportos">Futebol
+        </label>
+        <label for="basquetebol">
+            <input id="basquetebol" type="checkbox" value="basquetebol" name="desportos">Basquetebol
+        </label>
+        <label for="andebol">
+            <input id="andebol" type="checkbox" value="andebol" name="desportos">Andebol
+        </label>
+
+        <p>Comentários:</p>
+        <textarea id="comentario" name="comentario" placeholder="Insira aqui o seu comentário..."></textarea>
+
+        <button id="submit" type="submit">Submeter</button>
+          
+    </form>
+</body> 
